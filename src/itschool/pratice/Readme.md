@@ -9,3 +9,5 @@
 * CTRL + D = Duplicate codeline
 * CTRL + Y = Delete codeline
 * CTRL + SPACE = Shows properties of the object ( name. CTRL + SPACE => equals method )
+* 
+* CTRL + R = to replace text inside selection

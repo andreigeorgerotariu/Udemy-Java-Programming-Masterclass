@@ -14,7 +14,7 @@ public class Session5 {
                 maxValueIndex = x;
             }
         }
-        String name = "Ion " + "Maria";
+     //   String name = "Ion " + "Maria";
 
         Session5 session5 = new Session5();
 //        System.out.println("The maximum value is: " + maxValue + session5);
@@ -29,14 +29,14 @@ public class Session5 {
         // CTRL + Y = Delete codeline
         // CTRL + SPACE = Shows propreties of the object ( name. CTRL + SPACE => equals method )
 
-        User alex = new User();
-        User andrei = new User();
-        andrei.testMethod();
+       // User alex = new User();
+       // User andrei = new User();
+      //  andrei.testMethod();
         int value = 10;
 
-        System.out.println(alex.getName());
-        alex.setName("Alex");
-        System.out.println(alex.getName());
+       // System.out.println(alex.getName());
+      //  alex.setName("Alex");
+      //  System.out.println(alex.getName());
 
     }
 

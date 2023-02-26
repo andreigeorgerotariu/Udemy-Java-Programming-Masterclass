@@ -1,4 +1,4 @@
-package java_operators;
+package itschool.javaoperators;
 
 public class NumericPromotion {
 }
