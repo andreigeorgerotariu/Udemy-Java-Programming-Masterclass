@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[]args) {
-        System.out.println("Hello kitty!");
+        System.out.println("timbuchalka.Hello kitty!");
         int y = 2;
         int z = --y;
         double xy = 3 + 6 * --z;
@@ -21,7 +21,7 @@ public class Main {
             x = true;
             System.out.println(x);
         } else if (10 < 15) {
-            System.out.println("Hello from the second one");
+            System.out.println("timbuchalka.Hello from the second one");
         } else if (10<30) {
             System.out.println("hello from the last one");
 
