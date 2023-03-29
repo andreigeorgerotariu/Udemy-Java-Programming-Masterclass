@@ -72,6 +72,12 @@ public class Operators {
          }
          if(!isCar) {   // Alternative way of writing is it false boolean expression
              System.out.println("This is not supposed to happen case 3");
+
+  //       isCar = true;
+  //       boolean wasCar = isCar ? false : true;
+  //       if (wasCar) {
+             System.out.println("WasCar is true");
+       //  }
          }
 
     }
