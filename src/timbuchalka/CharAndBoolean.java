@@ -7,7 +7,7 @@ public class CharAndBoolean {
         char myUnicodeChar = '\u0044'; // unicode value for 'D' / unicode-table.com
         System.out.println(myChar);
         System.out.println(myUnicodeChar);
-        char myCopyrightChar = '\u00A9'; // ??? Not working? Go to Settings -> Editor -> File Encodings -> Project Encoding and set it to "UTF-8".
+        char myCopyrightChar = '\u00A9'; // ??? Not working? Go to Settings -> Editor -> File Encodings -> ProjectToDO Encoding and set it to "UTF-8".
         System.out.println(myCopyrightChar);
 
         boolean myTrueBooleanValue = true;
