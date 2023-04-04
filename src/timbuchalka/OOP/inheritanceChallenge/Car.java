@@ -1,4 +1,4 @@
-package timbuchalka.OOP.InheritanceChallenge;
+package timbuchalka.OOP.inheritanceChallenge;
 
 public class Car extends Vehicle {
 

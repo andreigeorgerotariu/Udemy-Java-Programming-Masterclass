@@ -7,7 +7,7 @@ public class ConstructorChaining {
     private int width;
     private int height;
 
-    public ConstructorChaining() {  // 1st c onstructor
+    public ConstructorChaining() {  // 1st constructor
         this(0, 0);  // calls 2nd constructor
     }
 

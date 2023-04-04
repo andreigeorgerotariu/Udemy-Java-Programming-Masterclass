@@ -1,6 +1,4 @@
-package timbuchalka.OOP.InheritanceChallenge;
-
-import itschool.pratice.extra.carservice.Price;
+package timbuchalka.OOP.inheritanceChallenge;
 
 public class Vehicle {
 
