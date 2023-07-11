@@ -1,4 +1,4 @@
-package morePractice.mar22;
+package extraPractice;
 
 public class Main {
     public static void main(String[] args){

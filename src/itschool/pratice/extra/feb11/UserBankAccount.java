@@ -1,6 +1,6 @@
 package itschool.pratice.extra.feb11;
 
-public class UserBankAccount {
+public class                            UserBankAccount {
 
     double balance;
     String username;

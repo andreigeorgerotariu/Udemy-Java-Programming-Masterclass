@@ -1,4 +1,4 @@
-package morePractice.mar22;
+package extraPractice;
 
 //Write a function that removes the spaces from the string, then return the resultant string.
 //
