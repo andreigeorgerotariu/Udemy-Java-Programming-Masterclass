@@ -26,7 +26,5 @@ public class OperatorsPartTwoChallenge {
         if (!finalResult) {
             System.out.println("Got some remainder" + result);
         }
-
-
     }
 }

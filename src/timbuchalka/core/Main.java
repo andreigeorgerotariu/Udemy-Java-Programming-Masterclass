@@ -1,7 +1,7 @@
 package timbuchalka.core;
 
 public class Main {
-    public static void main(String[]args) {
+    public static void main(String[] args) {
         System.out.println("timbuchalka.Core.Hello kitty!");
         int y = 2;
         int z = --y;
@@ -11,23 +11,13 @@ public class Main {
         boolean x;
         boolean test = 12 > 11;
 
-
-
-
-
-
-
-
-
-        if(12>11) {
+        if (12 > 11) {
             x = true;
             System.out.println(x);
         } else if (10 < 15) {
             System.out.println("timbuchalka.Core.Hello from the second one");
-        } else if (10<30) {
+        } else if (10 < 30) {
             System.out.println("hello from the last one");
-
         }
     }
-
-    }
+}

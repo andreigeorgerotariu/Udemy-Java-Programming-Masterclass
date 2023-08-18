@@ -14,7 +14,5 @@ public class CharAndBoolean {
         boolean myFalseBooleanValue = false;
 
         boolean isCustomerOverEighteen = true; // starts with "is" and a question
-
-
     }
 }

@@ -8,9 +8,7 @@ public class MethodOverloadingChallenge {
         double firstConversion = calcFeetAndInchesToCentimeters(5, 5);
 
         calcFeetAndInchesToCentimeters(157);
-
     }
-
 
     public static double calcFeetAndInchesToCentimeters(double feet, double inch) {
         double convertedCm;
@@ -20,7 +18,7 @@ public class MethodOverloadingChallenge {
         } else {
             convertedCm = (feet * 12 + inch) * 2.54;
         }
-        System.out.println(feet + " feet and " + inch + " inches equals " + convertedCm + " centimeters!" );
+        System.out.println(feet + " feet and " + inch + " inches equals " + convertedCm + " centimeters!");
         return convertedCm;
     }
 
@@ -28,10 +26,10 @@ public class MethodOverloadingChallenge {
         double convertedCm;
         if (inch <= 0) {
             return -1;
-        } double feet = (int) inch / 12;
+        }
+        double feet = (int) inch / 12;
         double remainingInches = (int) inch % 12;
         System.out.println(inch + " inches is equal to " + feet + " feet and " + remainingInches + " remaining inches");
         return calcFeetAndInchesToCentimeters(feet, remainingInches);
     }
 }
-

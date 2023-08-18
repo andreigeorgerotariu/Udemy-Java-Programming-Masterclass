@@ -43,8 +43,5 @@ public class IfKeyWordAndCodeBlocks {
             int finalScore = secondScore + (secondLevelCompleted * secondBonus);
             System.out.println("Your second final score was " + finalScore);
         }
-
-
     }
-
 }

@@ -27,9 +27,7 @@ public class ReadingUserInput {
             System.out.println("Unable to parse year of birth. ");
         }
 
-
         scanner.close(); // "close method" for closing the scanner
         // It is recommended to close the scanner after use to free up resources
-
     }
 }

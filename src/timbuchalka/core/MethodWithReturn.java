@@ -26,6 +26,4 @@ public class MethodWithReturn {
             // in searching algorithms negative 1 indicates an  invalid value or a value not found
         }
     }
-
 }
-

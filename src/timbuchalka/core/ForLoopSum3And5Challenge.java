@@ -13,7 +13,6 @@ public class ForLoopSum3And5Challenge {
             if (count == 5) {
                 System.out.println("The sum of those numbers is: " + sum);
                 break;
-
             }
         }
     }

@@ -79,6 +79,5 @@ public class Operators {
              System.out.println("WasCar is true");
        //  }
          }
-
     }
 }

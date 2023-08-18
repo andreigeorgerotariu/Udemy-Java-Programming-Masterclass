@@ -10,7 +10,6 @@ public class KeywordsAndExpressions {
         int highScore = 50; // highScore = 50 is the Expression
         if(highScore == 50){  // highScore == 50 is the Expression
             System.out.println("This is an expression"); // "This is an expression" is the Expression
-
         }
     }
 }

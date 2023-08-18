@@ -4,7 +4,6 @@ public class DayOfTheWeekChallenge {
     public static void main(String[] args) {
         printDayOfTheWeek(0);
         printDayOfTheWeekUsingIfElse(5);
-
     }
 
     public static void printDayOfTheWeek(int day) {
@@ -34,7 +33,6 @@ public class DayOfTheWeekChallenge {
                 System.out.println("Invalid day");
                 break;
         }
-
     }
 
     public static void printDayOfTheWeekUsingIfElse(int day) {
@@ -57,4 +55,3 @@ public class DayOfTheWeekChallenge {
         }
     }
 }
-

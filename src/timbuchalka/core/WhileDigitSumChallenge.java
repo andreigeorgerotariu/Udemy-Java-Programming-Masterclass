@@ -13,14 +13,15 @@ public class WhileDigitSumChallenge {
         }
         int sum = 0;
         // 125 -> 152/10 = 12 -> 12*10 = 120 -> 125-120 = 5
-        while (number >0) {
+        while (number > 0) {
             // extract the least-significant digit
             int digit = number % 10;
             sum += digit; // ads digit to the sum
 
             // drop the least significant digit
             number /= 10; // equivalent to number = number / 10;
-        } return sum;
+        }
+        return sum;
     }
 
 //    public static int sumDigits(int number) {

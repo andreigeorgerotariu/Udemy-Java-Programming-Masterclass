@@ -23,6 +23,4 @@ public class IfThenStatement {
             System.out.println("Greater than second top score and less than 100");
         }
     }
-
-
 }

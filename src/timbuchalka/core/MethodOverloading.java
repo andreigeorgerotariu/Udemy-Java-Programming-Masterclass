@@ -13,11 +13,13 @@ public class MethodOverloading {
         System.out.println("Player " + playerName + " scored " + score + " points");
         return score * 1000;
     }
-// Method overloading allows a class to have multiple methods with the same name but different parameters.
+
+    // Method overloading allows a class to have multiple methods with the same name but different parameters.
     public static int calculateScore(int score) { // Method signature = method name and parameters (in this case 'calculateScore(int score)')
         System.out.println("Unknown player scored " + score + " points");
         return score * 1000;
     }
+
     public static int calculateScore() {
         System.out.println("No player name, no score.");
         return 0;

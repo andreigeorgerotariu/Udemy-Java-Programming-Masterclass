@@ -3,7 +3,6 @@ package timbuchalka.core;
 public class MethodsChallenge {
     public static void main(String[] args) {
 
-
         int highScorePosition = calculateHighScorePosition(1500);
         displayHighScorePosition("Andrew", highScorePosition);
 
@@ -15,13 +14,11 @@ public class MethodsChallenge {
 
         highScorePosition = calculateHighScorePosition(50);
         displayHighScorePosition("Mark", highScorePosition);
-
     }
 
     public static void displayHighScorePosition(String playerName, int positionInHighScoreTable) {
 
         System.out.println(playerName + " managed to get into position " + positionInHighScoreTable + " on the high score table");
-
     }
 
     public static int calculateHighScorePosition(int playerScore) {
@@ -42,7 +39,7 @@ public class MethodsChallenge {
             position = 2;
         } else if (playerScore >= 100) {
             position = 3;
-        } return position;
+        }
+        return position;
     }
 }
-

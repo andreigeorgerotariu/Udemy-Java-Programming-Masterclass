@@ -45,7 +45,5 @@ public class ByteShortIntLong {
         // ALT + SHIFT + ENTER = to cast (it to byte)
 
         Short myNewShortValue = (short) (myMinShortValue / 2);
-
-
     }
 }

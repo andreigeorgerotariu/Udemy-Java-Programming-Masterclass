@@ -12,4 +12,3 @@ public class  Dog {
         System.out.println("name " + name);
     }
 }
-

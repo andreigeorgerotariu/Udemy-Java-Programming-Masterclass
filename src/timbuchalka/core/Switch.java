@@ -12,14 +12,16 @@ public class Switch {
 //        }
 
         int switchValue = 1;
-        switch(switchValue){
+        switch (switchValue) {
             case 1:
                 System.out.println("Value was 1");
                 break;
             case 2:
                 System.out.println("Value was 2");
                 break;
-            case 3: case 4: case 5:
+            case 3:
+            case 4:
+            case 5:
                 System.out.println("Was a 3, or a 4, or a 5");
                 System.out.println("Actually it was a " + switchValue);
                 break;
@@ -62,7 +64,7 @@ public class Switch {
 
         int dayOfWeek = 5;
 
-        switch(dayOfWeek) {
+        switch (dayOfWeek) {
             case 1:
                 System.out.println("Monday");
                 break;
@@ -87,7 +89,5 @@ public class Switch {
             default:
                 System.out.println("Invalid day");
         }
-
-
     }
 }

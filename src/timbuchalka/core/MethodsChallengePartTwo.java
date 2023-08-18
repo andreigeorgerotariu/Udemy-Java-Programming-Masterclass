@@ -39,9 +39,6 @@ public class MethodsChallengePartTwo {
         } else {
             double milesPerHour = toMilesPerHour(kilometersPerHour);
             System.out.println(kilometersPerHour + "km/h = " + milesPerHour + " mi/h");
-
         }
-
-
     }
 }
