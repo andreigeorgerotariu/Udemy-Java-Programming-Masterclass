@@ -10,7 +10,6 @@ public class AddressBook {
     }
 
     public AddressBook() {
-
     }
 
     public void addContact(Contact contact) {
