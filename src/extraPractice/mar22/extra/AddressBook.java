@@ -10,9 +10,7 @@ public class AddressBook {
     }
 
     public AddressBook() {
-
     }
-
 //    public AddressBook(ArrayList<Contact> contacts) {
 //        this.contacts = contacts;
 //    }
