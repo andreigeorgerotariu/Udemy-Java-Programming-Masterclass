@@ -1,4 +1,4 @@
-package timbuchalka.collections.listAndArrayList;
+package timbuchalka.collections.listAndArrayList.groceryListApp;
 
 import java.util.ArrayList;
 import java.util.Scanner;
