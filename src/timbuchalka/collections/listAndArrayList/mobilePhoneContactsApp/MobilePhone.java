@@ -1,16 +1,82 @@
 package timbuchalka.collections.listAndArrayList.mobilePhoneContactsApp;
 
-// Create a program that implements a  simple mobile phone with the following capabilities.
-// Able to store, modify, remove and query contact names.
-// You will want to create separate class for Contacts (name and phone number).
-// Create a master class (mobilePhone) that holds the ArrayList of Contacts.
-// The MobilePhone Class has the functionality listed above.
-// Add a menu of options that are available.
-// Options: Quit, print list of contacts, add a new contact, update existing contact, remove contact and search/find contact.
-// When adding or updating be sure to check if the contact already exists (use name)
-// Be sure not to expose the inner workings of the Arraylist to MobilePhone.
-// e.g. no ints, no .get(i) etc.
-// MobilePhone should do everything with Contact objects only.
+import java.util.ArrayList;
 
 public class MobilePhone {
+
+    private String myNumber;
+    private ArrayList<Contacts> myContacts;
+
+    public MobilePhone(String myNumber) {
+        this.myNumber = myNumber;
+        this.myContacts = new ArrayList<Contacts>();
+    }
+
+    public boolean addNewContact(Contacts contacts) {
+        if (findContact(contacts.getName()) >= 0) {
+            System.out.println("Contact is already on file.");
+            return false;
+        }
+        myContacts.add(contacts);
+        return true;
+    }
+
+    public boolean updateContact(Contacts oldContact, Contacts newContact) {
+        int foundPosition = findContact(oldContact);
+        if (foundPosition < 0) {
+            System.out.println(oldContact.getName() + ", was not found!");
+            return false;
+        }
+        this.myContacts.set(foundPosition, newContact);
+        System.out.println(oldContact.getName() + ", was replaced with " + newContact.getName());
+        return true;
+    }
+
+    public boolean removeContact(Contacts contact) {
+        int foundPosition = findContact(contact);
+        if(foundPosition < 0) {
+            System.out.println(contact.getName() + ", was not found!");
+            return false;
+        }
+        this.myContacts.remove(foundPosition);
+        System.out.println(contact.getName() + ", was removed!");
+        return true;
+    }
+
+    private int findContact(Contacts contacts) {
+        return this.myContacts.indexOf(contacts);
+    }
+
+    private int findContact(String contactName) {
+        for (int i = 0; i < this.myContacts.size(); i++) {
+            Contacts contacts = this.myContacts.get(i);
+            if (contacts.getName().equalsIgnoreCase(contactName)) {
+                return i;
+            }
+        } return -1;
+    }
+
+    public String queryContact(Contacts contact) {
+        if (findContact(contact) >= 0) {
+            return contact.getName();
+        }
+        return null;
+    }
+
+    public Contacts queryContact(String name) {
+        int contactPosition = findContact(name);
+        if(contactPosition >= 0) {
+            return this.myContacts.get(contactPosition);
+        }
+        return null;
+    }
+
+    public void printContacts() {
+        System.out.println("Contact list:");
+        for (int i= 0; i< this.myContacts.size(); i++){
+            System.out.println((i+1) + "." +
+                    this.myContacts.get(i).getName() + " -> " +
+                    this.myContacts.get(i).getPhoneNumber());
+        }
+    }
 }
