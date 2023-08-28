@@ -28,8 +28,6 @@ public class AvailableLibrary extends HomePage {
         movieList.add(10, "Shrek");
         movieList.add(11, "Shrek 2");
         movieList.add(12, "Shrek the Third");
-
-
     }
 
 

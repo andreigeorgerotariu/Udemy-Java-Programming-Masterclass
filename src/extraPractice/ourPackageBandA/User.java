@@ -10,5 +10,3 @@ public class User {
 //    if (userA < 10){
 //        System.out.println("You may like animation" + );
     }
-
-

@@ -11,4 +11,3 @@ public class ConcatenateStrings {
         System.out.println("Concatenated string is: " + result);
     }
 }
-
