@@ -21,5 +21,27 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Bank bank = new Bank("BNR");
+
+        bank.addBranch("Bucharest");
+        bank.addCustomer("Bucharest","Andrew", 144.2);
+        bank.addCustomer("Bucharest","Alex", 255.5);
+        bank.addCustomer("Bucharest","Maria", 189.9);
+
+        bank.addBranch("Cluj");
+        bank.addCustomer("Cluj","Mike",15.23);
+        bank.addCustomer("Cluj","Tim",222.99);
+        bank.addCustomer("Cluj","John",189.94);
+
+        bank.addCustomerTransaction("Bucharest", "Andrew", 22.9);
+        bank.addCustomerTransaction("Bucharest", "Andrew", 122.91);
+        bank.addCustomerTransaction("Bucharest", "Andrew", 221.19);
+
+        bank.addCustomerTransaction("Bucharest", "Alex", 1500);
+        bank.addCustomerTransaction("Bucharest", "Alex", 189.9);
+        bank.addCustomerTransaction("Bucharest", "Alex", 144.88);
+
+        bank.listCustomers("Bucharest", true);
+        bank.listCustomers("Cluj", true);
     }
 }
