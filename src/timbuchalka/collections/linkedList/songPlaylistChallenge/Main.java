@@ -14,4 +14,10 @@ package timbuchalka.collections.linkedList.songPlaylistChallenge;
 //As an optional extra, provide an option to remove the current song from the playlist (hint: listIterator.remove()
 
 public class Main {
+    public static void main(String[] args) {
+
+
+
+    }
+
 }
