@@ -40,6 +40,8 @@ public class Main {
         System.out.println(andariel);
         saveObject(andariel);
 
+        System.out.println(((Monster) andariel).getHitPoints()); // Casting Monster class
+
     }
 
     public static ArrayList<String> readValues() {
