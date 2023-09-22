@@ -33,8 +33,12 @@ public class Main {
         System.out.println(andrew);
         andrew.setWeapon("Stormbringer");
         saveObject(andrew);
-        loadObject(andrew);
+//        loadObject(andrew);
         System.out.println(andrew);
+
+        ISaveable andariel = new Monster("Andariel", 120, 111);
+        System.out.println(andariel);
+        saveObject(andariel);
 
     }
 
