@@ -41,7 +41,6 @@ public class Main {
         saveObject(andariel);
 
         System.out.println(((Monster) andariel).getHitPoints()); // Casting Monster class
-
     }
 
     public static ArrayList<String> readValues() {

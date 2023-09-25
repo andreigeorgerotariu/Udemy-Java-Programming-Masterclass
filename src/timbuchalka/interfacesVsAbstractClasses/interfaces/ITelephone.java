@@ -11,5 +11,4 @@ public interface ITelephone {
     boolean callPhone(int phoneNumber);
 
     boolean isRinging();
-
 }

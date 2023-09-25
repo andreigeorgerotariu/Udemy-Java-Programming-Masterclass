@@ -14,6 +14,5 @@ public class Main {
         andrewsPhone.powerOn();
         andrewsPhone.callPhone(0742000111);
         andrewsPhone.answer();
-
     }
 }
