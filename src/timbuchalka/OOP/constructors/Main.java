@@ -18,7 +18,6 @@ public class Main {
         BankAccount alexsAccount = new BankAccount("Alex", "alex@gmail.com", 1236988);
         System.out.println(alexsAccount.getNumber() + " name " + alexsAccount.getCustomerName());
 
-
         VipCustomer person1 = new VipCustomer();
         person1.getName();
         System.out.println(person1.getName());
@@ -29,7 +28,6 @@ public class Main {
         VipCustomer person3 = new VipCustomer("David", 69, "david@mail.com");
         System.out.println(person3.getName());
         System.out.println(person3.getEmailAddress());
-
 
     }
 }
