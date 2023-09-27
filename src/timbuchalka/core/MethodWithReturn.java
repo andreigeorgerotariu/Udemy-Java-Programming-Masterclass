@@ -12,7 +12,6 @@ public class MethodWithReturn {
 
         highScore = calculateScore(true, 10000, 8, 200);
         System.out.println("Your final score " + highScore);
-
     }
 
     public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) { // int - returns int value back

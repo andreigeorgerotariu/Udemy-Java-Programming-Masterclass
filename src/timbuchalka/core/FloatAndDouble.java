@@ -28,6 +28,5 @@ public class FloatAndDouble {
 
          double anotherNumber = 3_000_000.44_158; // underscores can be used for easier reading of a number
         System.out.println(anotherNumber);
-
     }
 }

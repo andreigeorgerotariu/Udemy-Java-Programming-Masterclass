@@ -28,6 +28,7 @@ package timbuchalka.OOP.finalOOPChallenge;
 //burger (base + all additions)
 //For the two additional classes this may require you to be looking at the base class for pricing and then
 //adding totals to final price.
+
 public class Main {
 
     public static void main(String[] args) {

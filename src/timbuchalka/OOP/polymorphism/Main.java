@@ -77,7 +77,6 @@ public class Main {
             // different functionality, depending on the type of object we created)
             // "\n" - generates a new line
         }
-
     }
 
     public static Movie randomMovie() {

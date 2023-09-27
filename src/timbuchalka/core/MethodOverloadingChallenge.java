@@ -2,7 +2,7 @@ package timbuchalka.core;
 
 public class MethodOverloadingChallenge {
     public static void main(String[] args) {
-// 1 inch = 2.54cm
+        // 1 inch = 2.54cm
         // 1 foot = 12 inches
         double convertedCm = 0;
         double firstConversion = calcFeetAndInchesToCentimeters(5, 5);

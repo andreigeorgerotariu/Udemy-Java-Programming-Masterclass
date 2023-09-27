@@ -12,7 +12,6 @@ public class Vehicle {
         this.size = size;
         this.currentVelocity = 0;
         this.currentDirection = 0;
-
     }
 
     public void steer(int direction) {
@@ -28,7 +27,6 @@ public class Vehicle {
     public void stop (){
         this.currentVelocity = 0;
     }
-
 
     public String getName() {
         return name;
