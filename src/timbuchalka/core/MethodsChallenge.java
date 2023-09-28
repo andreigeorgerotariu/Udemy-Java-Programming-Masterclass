@@ -17,7 +17,6 @@ public class MethodsChallenge {
     }
 
     public static void displayHighScorePosition(String playerName, int positionInHighScoreTable) {
-
         System.out.println(playerName + " managed to get into position " + positionInHighScoreTable + " on the high score table");
     }
 
@@ -31,7 +30,6 @@ public class MethodsChallenge {
 //        } else {
 //            return 4;
 //        }
-
         int position = 4; // assuming position 4 will be returned
         if (playerScore >= 1000) {
             position = 1;
