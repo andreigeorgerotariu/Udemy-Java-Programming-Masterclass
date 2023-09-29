@@ -93,14 +93,3 @@ class AnotherTest {
         System.out.println(test1.equalsIgnoreCase(test2));//false
     }
 }
-
-
-
-
-
-
-
-
-
-
-

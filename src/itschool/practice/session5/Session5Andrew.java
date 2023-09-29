@@ -37,9 +37,5 @@ public class Session5Andrew {
        // System.out.println(alex.getName());
       //  alex.setName("Alex");
       //  System.out.println(alex.getName());
-
     }
-
-
 }
-

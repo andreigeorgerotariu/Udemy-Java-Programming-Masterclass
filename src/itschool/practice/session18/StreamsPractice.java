@@ -127,8 +127,6 @@ public class StreamsPractice {
 //        numbers.forEach(numberList -> numberList.forEach(number -> extractedNumbers.add(number)));
 
         System.out.println("Extracted numbers " + extractedNumbers);
-
-
     }
 
     // transform each element of a stream using a function

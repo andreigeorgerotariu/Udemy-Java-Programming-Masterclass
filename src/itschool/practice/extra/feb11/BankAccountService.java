@@ -41,7 +41,6 @@ public class BankAccountService {
             System.out.println("You don't have enough money.");
             return balance;
         }
-
         return balance - amountWithdraw;
     }
 
@@ -65,7 +64,6 @@ public class BankAccountService {
             System.out.println("Please come back from Monday to Friday, from 8 to 16.");
             return balance;
         }
-
         return balance - amountWithdraw;
     }
 }

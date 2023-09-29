@@ -20,8 +20,6 @@ public class ReverseAnArrayList {
         arrayListClass1.stringArrayList.add("John");
 
         reverseArrayList(arrayListClass1.stringArrayList);
-
-
     }
 
     public static void reverseArrayList(ArrayList<String> arrayList) {

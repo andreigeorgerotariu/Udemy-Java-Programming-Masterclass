@@ -49,7 +49,5 @@ public class ArrayListChallenge {
         for (String student : graduateStudentList) {
             System.out.println(student);
         }
-
-
     }
 }

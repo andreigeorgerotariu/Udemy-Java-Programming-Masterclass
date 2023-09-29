@@ -15,9 +15,7 @@ public class Kata {
                 System.out.println("The different value is: " + differentValue);
                 System.out.println("The different value located at index: " + differentValueIndex);
                 break;
-
             }
         }
     }
-
 }
