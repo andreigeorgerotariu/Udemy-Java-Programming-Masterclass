@@ -11,9 +11,6 @@ public class AddressBook {
 
     public AddressBook() {
     }
-//    public AddressBook(ArrayList<Contact> contacts) {
-//        this.contacts = contacts;
-//    }
 
     public void addContact(Contact contact) {
         this.contacts.add(contact);
