@@ -1,4 +1,4 @@
-package timbuchalka.collections.innerClasses;
+package timbuchalka.interfacesVsAbstractClasses.innerClasses;
 
 import java.util.ArrayList;
 
