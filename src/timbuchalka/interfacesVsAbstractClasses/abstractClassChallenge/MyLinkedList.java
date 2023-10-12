@@ -29,19 +29,20 @@ public class MyLinkedList implements NodeList {
                     currentItem = currentItem.next();
                 } else {
                     // there is no next, so insert at end of list
-                    currentItem.setNext(newItem).setPrevious(currentItem);
+                    currentItem.setNext(newItem);
+                    newItem.setPrevious(currentItem);
                     return true;
                 }
-            } else if (comparison > 0) {
-                //newItem is less, insert before
-                if (currentItem.previous() != null) {
-                    currentItem.previous().setPrevious(newItem).setPrevious(currentItem.previous());
-                    newItem.setNext(currentItem).setPrevious(newItem);
-                } else {
-                    // the node with a previous is the root
-                    newItem.setNext(this.root).setPrevious(newItem);
+            } else if (comparison > 0 || currentItem == this.root) {
+                //newItem is less, insert before or currentItem is the root
+                newItem.setNext(currentItem);
+                newItem.setPrevious(currentItem.previous());
+                if (currentItem == this.root) {
                     this.root = newItem;
+                } else {
+                    currentItem.previous().setNext(newItem);
                 }
+                currentItem.setPrevious(newItem);
                 return true;
             } else {
                 // equal
@@ -54,6 +55,34 @@ public class MyLinkedList implements NodeList {
 
     @Override
     public boolean removeItem(ListItem item) {
+        if (item != null) {
+            System.out.println("Deleting item " + item.getValue());
+        }
+        ListItem currentItem = this.root;
+        while (currentItem != null) {
+            int comparison = currentItem.compareTo(item);
+            if (comparison == 0) {
+                //found the item to delete
+                if (currentItem == this.root) {
+                    this.root = currentItem.next();
+                } else {
+                    currentItem.previous().setNext(currentItem.next());
+                    if (currentItem.next() != null) {
+                        currentItem.next().setPrevious(currentItem);
+                    }
+                }
+                return true;
+            } else if (comparison < 0) {
+                currentItem = currentItem.next();
+            } else {
+                // comparison > 0
+                // We are at an item greater than the one to be deleted
+                // so the item is not in the list
+                return false;
+            }
+        }
+        // We have reached the end of the list
+        // Without finding the item to delete
         return false;
     }
 
@@ -62,7 +91,7 @@ public class MyLinkedList implements NodeList {
         if (root == null) {
             System.out.println("The list is empty");
         } else {
-            while (root!=null) {
+            while (root != null) {
                 System.out.println(root.getValue());
                 root = root.next();
             }
