@@ -2,7 +2,7 @@ package timbuchalka.interfacesVsAbstractClasses.abstractClassChallenge;
 
 public abstract class ListItem {
 
-    protected ListItem rightLink = null;
+    protected ListItem rightLink = null;  // creating an instance of the same class within a class
     protected ListItem leftLink = null;
 
     protected Object value;
@@ -17,4 +17,12 @@ public abstract class ListItem {
     abstract ListItem setPrevious(ListItem item);
 
     abstract int compareTo (ListItem item);
+
+    public Object getValue() {
+        return value;
+    }
+
+    public void setValue(Object value) {
+        this.value = value;
+    }
 }
