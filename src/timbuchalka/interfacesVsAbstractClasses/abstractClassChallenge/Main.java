@@ -9,7 +9,8 @@ public class Main {
         MyLinkedList list = new MyLinkedList(null);
         list.traverse(list.getRoot());
 
-        String stringData = "5 7 3 9 8 2 1 0 4 6 ";
+//        String stringData = "5 7 3 9 8 2 1 0 4 6 ";
+        String stringData = "Darwin Brisbane Perth Melbourne Canberra Adelaide Sydney Canberra";
 
         String[] data = stringData.split(" ");
         for(String s: data) {
@@ -17,6 +18,14 @@ public class Main {
         }
 
         list.traverse(list.getRoot());
+
+        SearchTree tree = new SearchTree(null);
+
+        String[] data2 = stringData.split(" ");
+        for(String s: data2) {
+            tree.addItem(new Node(s));
+        }
+
     }
 
     //For this challenge, create an abstract class to define items that can be stored in a list.
