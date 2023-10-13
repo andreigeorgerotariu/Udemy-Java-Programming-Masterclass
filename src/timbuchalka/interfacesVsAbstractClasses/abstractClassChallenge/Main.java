@@ -13,7 +13,7 @@ public class Main {
         String stringData = "Darwin Brisbane Perth Melbourne Canberra Adelaide Sydney Canberra";
 
         String[] data = stringData.split(" ");
-        for(String s: data) {
+        for (String s : data) {
             list.addItem(new Node(s));
         }
 
@@ -22,7 +22,7 @@ public class Main {
         SearchTree tree = new SearchTree(null);
 
         String[] data2 = stringData.split(" ");
-        for(String s: data2) {
+        for (String s : data2) {
             tree.addItem(new Node(s));
         }
 
@@ -84,6 +84,6 @@ public class Main {
 
     //String[] data = stringData.split("");
     //   for (String s: data) {
-        //create new item with value set to the String s
+    //create new item with value set to the String s
     //}
 }
