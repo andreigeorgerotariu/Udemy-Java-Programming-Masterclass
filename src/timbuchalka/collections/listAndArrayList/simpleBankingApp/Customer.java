@@ -13,7 +13,7 @@ public class Customer {
         addTransaction(initialAmount);
     }
 
-    public void addTransaction(double amount){
+    public void addTransaction(double amount) {
         this.transactions.add(amount);
     }
 

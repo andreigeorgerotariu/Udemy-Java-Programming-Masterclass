@@ -25,7 +25,7 @@ public class Main {
             System.out.println(i + " : " + intList.get(i));
         }
 
-        intList.add(1,22); // The other elements move down
+        intList.add(1, 22); // The other elements move down
 
         for (int i = 0; i < intList.size(); i++) {
             System.out.println(i + " : " + intList.get(i));

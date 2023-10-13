@@ -10,7 +10,8 @@ public class resizeArray {
     public static void main(String[] args) {
 
         System.out.println("Enter 5 integers: ");
-        getInput();;
+        getInput();
+        ;
         printArray(baseData);
         resizeArray();
 
@@ -26,17 +27,17 @@ public class resizeArray {
     }
 
     private static void printArray(int[] arr) {
-        for (int i = 0; i < arr.length; i ++){
+        for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
             System.out.println();
         }
     }
 
-    private static void resizeArray(){
+    private static void resizeArray() {
         int[] original = baseData;
 
         baseData = new int[7];
-        for(int i = 0; i<original.length; i++){
+        for (int i = 0; i < original.length; i++) {
             baseData[i] = original[i];
         }
     }

@@ -1,6 +1,6 @@
 package timbuchalka.interfacesVsAbstractClasses.abstractClasses;
 
-public class Penguin extends Bird{
+public class Penguin extends Bird {
 
     public Penguin(String name) {
         super(name);

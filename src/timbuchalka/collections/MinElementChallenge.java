@@ -44,7 +44,7 @@ public class MinElementChallenge {
 
         for (int i = 0; i < array.length; i++) {
             int value = array[i];
-            if (value < min){
+            if (value < min) {
                 min = value;
             }
         }

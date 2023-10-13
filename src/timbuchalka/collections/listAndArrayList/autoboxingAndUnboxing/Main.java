@@ -18,12 +18,12 @@ public class Main {
         Integer integer = 55; // at compile time -> Integer.valueOf(55);
         Double doubleValue = 15.25;
 
-        ArrayList<Integer> intArrayList = new ArrayList <Integer>();
-        for(int i =0; i <= 10; i++) {
+        ArrayList<Integer> intArrayList = new ArrayList<Integer>();
+        for (int i = 0; i <= 10; i++) {
             intArrayList.add(Integer.valueOf(i)); //Autoboxing
         }
 
-        for (int i = 0; i <= 10 ; i++) {
+        for (int i = 0; i <= 10; i++) {
             System.out.println(i + " ---> " + intArrayList.get(i).intValue()); // Unboxing
         }
 
@@ -34,7 +34,7 @@ public class Main {
         int myInt = myIntValue; // at compile time myIntValue.intValue();
 
         ArrayList<Double> myDoubleValues = new ArrayList<Double>();
-        for(double dbl=0.0; dbl<= 10.0; dbl +=0.5) {
+        for (double dbl = 0.0; dbl <= 10.0; dbl += 0.5) {
             myDoubleValues.add(Double.valueOf(dbl)); //Autoboxing
         }
         for (int i = 0; i < myDoubleValues.size(); i++) {

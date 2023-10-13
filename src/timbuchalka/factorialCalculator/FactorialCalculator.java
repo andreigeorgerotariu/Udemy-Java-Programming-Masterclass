@@ -10,10 +10,10 @@ public class FactorialCalculator {
     }
 
     public static long calculateFactorial(int n) {
-        if (n==0) {
+        if (n == 0) {
             return 1; // Base case: 0! is defined as 1
         } else {
-            return n * calculateFactorial(n-1); // Recursive case
+            return n * calculateFactorial(n - 1); // Recursive case
         }
     }
 }

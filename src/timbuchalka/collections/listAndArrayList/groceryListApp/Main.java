@@ -86,7 +86,7 @@ public class Main {
         }
     }
 
-    public static void processArrayList(){
+    public static void processArrayList() {
         ArrayList<String> newArray = new ArrayList<String>();
         newArray.addAll(groceryList.getGroceryList());
 

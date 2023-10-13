@@ -12,7 +12,7 @@ public class IntClass {
         return myValue;
     }
 
-    public void setMyValue (int myValue) {
+    public void setMyValue(int myValue) {
         this.myValue = myValue;
     }
 }

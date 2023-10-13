@@ -13,6 +13,6 @@ public class Dog extends Animal {
 
     @Override
     public void breathe() {
-        System.out.println(getName()+ " is breathing");
+        System.out.println(getName() + " is breathing");
     }
 }
