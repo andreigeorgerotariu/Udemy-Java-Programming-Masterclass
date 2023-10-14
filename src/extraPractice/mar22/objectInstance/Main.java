@@ -8,7 +8,7 @@ public class Main {
         String name = obj.getName();
     }
 
-    public String getName(){
+    public String getName() {
         return "Andrew";
     }
 }
