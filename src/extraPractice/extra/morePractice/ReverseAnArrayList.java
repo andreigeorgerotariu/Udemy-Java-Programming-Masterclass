@@ -1,10 +1,8 @@
-package timbuchalka.collections.listAndArrayList;
-
-import extraPractice.extra.morePractice.ArrayListClass;
+package extraPractice.extra.morePractice;
 
 import java.util.ArrayList;
 
-public class ArrayListReverse {
+public class ReverseAnArrayList {
 
     public static void main(String[] args) {
 
