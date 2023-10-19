@@ -1,4 +1,4 @@
-package timbuchalka.factorialCalculator;
+package extraPractice.factorialCalculator;
 
 public class FactorialCalculator {
 
