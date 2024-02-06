@@ -1,5 +1,7 @@
 package timbuchalka.generics.ourGenericsClass;
 
+import java.sql.SQLOutput;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -29,5 +31,16 @@ public class Main {
         hawthorn.matchResult(americanFootballTeam, 3, 8);
 
         americanFootballTeam.matchResult(fremantle, 2, 1);
+
+        System.out.println("Rankings: ");
+        System.out.println(americanFootballTeam.getName() + ": " + americanFootballTeam.ranking());
+        System.out.println(melbourne.getName() + ": " + melbourne.ranking());
+        System.out.println(fremantle.getName() + ": " + fremantle.ranking());
+        System.out.println(hawthorn.getName() + ": " + hawthorn.ranking());
+
+        System.out.println(americanFootballTeam.compareTo(melbourne));
+        System.out.println(americanFootballTeam.compareTo(hawthorn));
+        System.out.println(hawthorn.compareTo(americanFootballTeam));
+        System.out.println(melbourne.compareTo(fremantle));
     }
 }
