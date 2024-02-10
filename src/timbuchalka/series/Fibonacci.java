@@ -18,7 +18,7 @@ public class Fibonacci {
         long nMinus1 = 1;
         long nMinus2 = 0;
         long fib = 0;
-        for (int i = 0; i < n; i++) {
+        for (int i = 1; i < n; i++) {
             fib = (nMinus2 + nMinus1);
             nMinus2 = nMinus1;
             nMinus1 = fib;

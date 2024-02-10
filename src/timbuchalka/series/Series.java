@@ -2,7 +2,7 @@ package timbuchalka.series;
 
 // Create the following static methods:
 // nSum(int n) returns the sum of all numbers from 0 to n.
-// The first 10 numbers are: 0, 1, 3, 6, 10, 15, 28, 36, 45, 55.
+// The first 10 numbers are: 0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55.
 // factorial(int n) returns the product of all numbers from 1 to n. i.e. 1*2*3*4*...*(n-1)*n.
 // The first 10 factorials are: 0, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880, 3628800.
 // fibonacci(n) returns the n-th Fibonacci number. These are defined as:
@@ -22,7 +22,7 @@ public class Series {
             return 1;
         }
         long fact = 1;
-        for (int i = 0; i <= n; i++) {
+        for (int i = 1; i <= n; i++) {
             fact *= i;
         }
         return fact;
@@ -37,7 +37,7 @@ public class Series {
         long nMinus1 = 1;
         long nMinus2 = 0;
         long fib = 0;
-        for (int i = 0; i < n; i++) {
+        for (int i = 1; i < n; i++) {
             fib = (nMinus2 + nMinus1);
             nMinus2 = nMinus1;
             nMinus1 = fib;
