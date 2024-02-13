@@ -14,6 +14,5 @@ public class Main {
 
         ScopeCheck.InnerClass innerClass = scopeInstance.new InnerClass();
         innerClass.timesTwo();
-
     }
 }
