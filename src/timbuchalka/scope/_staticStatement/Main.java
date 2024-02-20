@@ -18,6 +18,13 @@ public class Main {
         int answer = multiply(6);
         System.out.println("The answer is " + answer);
         System.out.println("Multiplier is " + multiplier);
+
+        System.out.println("****************************");
+
+        System.out.println("Main method called");
+        StaticInitializationBlockTest test = new StaticInitializationBlockTest();
+        test.someMethod();
+        System.out.println("Owner is " + StaticInitializationBlockTest.owner);
     }
 
     public static int multiply(int number) {
