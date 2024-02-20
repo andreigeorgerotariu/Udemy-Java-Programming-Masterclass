@@ -1,4 +1,4 @@
-package timbuchalka.scope._static;
+package timbuchalka.scope._staticStatement;
 
 public class StaticTest {
 

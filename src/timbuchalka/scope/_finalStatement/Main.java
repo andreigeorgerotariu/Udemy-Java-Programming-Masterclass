@@ -1,4 +1,4 @@
-package timbuchalka.scope._final;
+package timbuchalka.scope._finalStatement;
 
 public class Main {
 
@@ -23,5 +23,8 @@ public class Main {
         password.letMeIn(0);
         password.letMeIn(-1);
         password.letMeIn(674312);
+
+        Password password1 = new ExtendedPassword(pw);
+        password.storePassword();
     }
 }

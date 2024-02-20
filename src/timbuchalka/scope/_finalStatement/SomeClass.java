@@ -1,4 +1,4 @@
-package timbuchalka.scope._final;
+package timbuchalka.scope._finalStatement;
 
 public class SomeClass {
 

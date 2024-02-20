@@ -1,4 +1,4 @@
-package timbuchalka.scope._final;
+package timbuchalka.scope._finalStatement;
 
 public class Password {
 
@@ -13,7 +13,7 @@ public class Password {
         return password ^ key;
     }
 
-    public void storePassword() {
+    public final void storePassword() {
         System.out.println("Saving password as " + this.encryptedPassword);
     }
 
