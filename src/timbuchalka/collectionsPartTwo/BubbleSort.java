@@ -16,10 +16,10 @@ public class BubbleSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = {64, 35, 26, 12, 22, 11,66, 89, 10, 199, 144, 2, 9};
+        int[] arr = {64, 35, 26, 12, 22, 11, 66, 89, 10, 199, 144, 2, 9};
         bubbleSort(arr);
         System.out.println("Sorted array:");
-        for (int i = 0; i< arr.length; i++) {
+        for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + ", ");
         }
     }
