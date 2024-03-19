@@ -1,4 +1,4 @@
-package timbuchalka.collectionsPartTwo.adventureGame;
+package timbuchalka.collectionsPartTwo;
 
 public class SplitMethod {
 
